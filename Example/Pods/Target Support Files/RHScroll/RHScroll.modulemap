@@ -1,0 +1,6 @@
+framework module RHScroll {
+  umbrella header "RHScroll-umbrella.h"
+
+  export *
+  module * { export * }
+}

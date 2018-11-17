@@ -1,0 +1,22 @@
+{
+  "name": "RHScroll",
+  "version": "0.1.0",
+  "summary": "A short description of RHScroll.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rashwanlazkani/RHScroll",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rashwanlazkani": "rashwan.lazkani@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rashwanlazkani/RHScroll.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RHScroll/Classes/**/*"
+}

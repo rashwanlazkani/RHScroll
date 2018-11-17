@@ -1,0 +1,16 @@
+PODS:
+  - RHScroll (0.1.0)
+
+DEPENDENCIES:
+  - RHScroll (from `../`)
+
+EXTERNAL SOURCES:
+  RHScroll:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RHScroll: 5eaefa072960702cf25d4c890f5e8f461f0885d5
+
+PODFILE CHECKSUM: beb157613ad194012a92c79b5d020eddd9c7c14e
+
+COCOAPODS: 1.6.0.beta.2
