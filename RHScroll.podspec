@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'RHScroll'
-    s.version          = '0.1.0'
+    s.version          = '1.0'
     s.summary          = 'With RHScroll you have a horizontal ScrollView with built in animations and notifications for tap and longPress gestures.'
     s.swift_version    = '4.2'
     
