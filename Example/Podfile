@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RHScroll_Example' do
+  pod 'RHScroll', :path => '../'
+
+  target 'RHScroll_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
