@@ -70,7 +70,7 @@ self.view.addSubview(scrollView)
 
 That is all that is needed to create the `ScrollView`.
 
-## Full example with a `ScrollView` containing images
+## Full example with a `RHScroll` containing views
 ```
 import RHScroll
 import UIKit
