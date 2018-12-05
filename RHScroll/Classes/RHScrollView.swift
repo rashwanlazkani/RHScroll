@@ -25,9 +25,9 @@ public class RHScrollView: UIScrollView {
     ///     - itemSize: the size for the items in the RHScrollView
     /// - Returns:
     ///     - RHScrollView with the choosen views and on the selected frame
-    public func createFor(_ views: [RHView], frame: CGRect, itemSize: CGSize) -> RHScrollView {
+    public func createFor(_ views: [RHView], frame: CGRect, itemSize: CGSize, isRound: Bool = false) -> RHScrollView {
         let data = setData(data: views, frame: frame, size: itemSize)
-        setupScrollView(data: data, frame: frame, items: views.count, size: itemSize)
+        setupScrollView(data: data, frame: frame, items: views.count, size: itemSize, isRound: isRound)
         return scrollView
     }
     
@@ -40,13 +40,13 @@ public class RHScrollView: UIScrollView {
     ///     - itemSize: the size for the items in the RHScrollView
     /// - Returns:
     ///     - RHScrollView with the choosen labels and on the selected frame
-    public func createFor(_ labels: [RHLabel], frame: CGRect, itemSize: CGSize) -> RHScrollView {
+    public func createFor(_ labels: [RHLabel], frame: CGRect, itemSize: CGSize, isRound: Bool = false) -> RHScrollView {
         let data = setData(data: labels, frame: frame, size: itemSize)
-        setupScrollView(data: data, frame: frame, items: labels.count, size: itemSize)
+        setupScrollView(data: data, frame: frame, items: labels.count, size: itemSize, isRound: isRound)
         return scrollView
     }
     
-    private func setupScrollView<T>(data: [T], frame: CGRect, items: Int, size: CGSize) {
+    private func setupScrollView<T>(data: [T], frame: CGRect, items: Int, size: CGSize, isRound: Bool = false) {
         scrollView = RHScrollView(frame: frame)
         scrollView.tag = setScrollViewTag()
         scrollView.contentSize = CGSize(width: CGFloat(items) * size.width + CGFloat(items) * 8 - 8, height: scrollView.frame.height)
@@ -56,11 +56,19 @@ public class RHScrollView: UIScrollView {
         if T.self == RHLabel.self {
             let labels = data as! [RHLabel]
             labels.forEach { (label) in
+                if isRound {
+                    label.layer.cornerRadius = label.frame.width / 2
+                    label.layer.masksToBounds = true
+                }
                 scrollView.addSubview(label)
             }
         } else if T.self == RHView.self || T.self == UIImage.self {
             let views = data as! [RHView]
             views.forEach { (view) in
+                if isRound {
+                    view.layer.cornerRadius = view.frame.width / 2
+                    view.layer.masksToBounds = true
+                }
                 scrollView.addSubview(view)
             }
         }

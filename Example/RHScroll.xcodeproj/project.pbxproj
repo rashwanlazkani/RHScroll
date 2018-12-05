@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		094DAC5A20ABFB474221B436 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0D5788CEAF0F1C2B92C51A3D /* RHScroll.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RHScroll.podspec; path = ../RHScroll.podspec; sourceTree = "<group>"; };
+		094DAC5A20ABFB474221B436 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0D5788CEAF0F1C2B92C51A3D /* RHScroll.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RHScroll.podspec; path = ../RHScroll.podspec; sourceTree = "<group>"; };
 		33FFEA2EEF6DE58555615A88 /* Pods-RHScroll_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHScroll_Example.debug.xcconfig"; path = "Target Support Files/Pods-RHScroll_Example/Pods-RHScroll_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3462861674BD67B45B677B98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3462861674BD67B45B677B98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		484A35C77815321F747515B5 /* Pods-RHScroll_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHScroll_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RHScroll_Tests/Pods-RHScroll_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EF0B96EED30E7BC9DB3F289 /* Pods-RHScroll_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHScroll_Example.release.xcconfig"; path = "Target Support Files/Pods-RHScroll_Example/Pods-RHScroll_Example.release.xcconfig"; sourceTree = "<group>"; };
 		515AEC9B78499768933C1C6D /* Pods_RHScroll_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RHScroll_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,6 @@
 				484A35C77815321F747515B5 /* Pods-RHScroll_Tests.debug.xcconfig */,
 				D9CB1D99A71963E149AC8636 /* Pods-RHScroll_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7XDMTA49ZT;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7XDMTA49ZT;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -482,6 +483,7 @@
 			baseConfigurationReference = 33FFEA2EEF6DE58555615A88 /* Pods-RHScroll_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XDMTA49ZT;
 				INFOPLIST_FILE = RHScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +499,7 @@
 			baseConfigurationReference = 4EF0B96EED30E7BC9DB3F289 /* Pods-RHScroll_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XDMTA49ZT;
 				INFOPLIST_FILE = RHScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -511,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 484A35C77815321F747515B5 /* Pods-RHScroll_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7XDMTA49ZT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9CB1D99A71963E149AC8636 /* Pods-RHScroll_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7XDMTA49ZT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

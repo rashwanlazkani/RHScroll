@@ -23,10 +23,10 @@ class ViewController: UIViewController {
     func create() {
         let views = [RHView(backgroundColor: .green), RHView(backgroundColor: .black), RHView(backgroundColor: .blue), RHView(backgroundColor: .yellow)]
         
-        let frame = CGRect(x: 16, y: 400, width: self.view.frame.maxX - 32, height: 75)
-        let size = CGSize(width: 100, height: 65)
+        let frame = CGRect(x: 16, y: 400, width: self.view.frame.maxX - 32, height: 80)
+        let size = CGSize(width: 80, height: 80)
         
-        let scrollView = rhScrollView.createFor(views, frame: frame, itemSize: size)
+        let scrollView = rhScrollView.createFor(views, frame: frame, itemSize: size, isRound: true)
         self.view.addSubview(scrollView)
     }
     
