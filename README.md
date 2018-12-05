@@ -9,8 +9,11 @@
 `RHScroll`  is a `ScrollView` similar to several famous apps out on the App Store. It creates in a simple way a horizontal `ScrollView` which can be used for several different purposes. You´re able to choose the size of the `ScrollView`, size of the items, the data and the positioning of everything. It has built in animations and notifications for tap and longPress gestures. You can add views, labels and images (see examples below).
 
 ### Here is how it looks:
+#### Regular:
 ![](https://media.giphy.com/media/2fLiopQntLyKJE8yAS/giphy.gif)
-![1](https://github.com/rashwanlazkani/RHScroll/blob/master/Screenshots/1.jpeg)
+
+#### Circles:
+<img src="https://github.com/rashwanlazkani/RHScroll/blob/master/Screenshots/1.jpeg" alt="drawing" style="width:200px;"/>
 
 
 ## Functions
