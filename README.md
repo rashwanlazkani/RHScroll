@@ -10,6 +10,7 @@
 
 ### Here is how it looks:
 ![](https://media.giphy.com/media/2fLiopQntLyKJE8yAS/giphy.gif)
+![1](https://github.com/rashwanlazkani/RHScroll/blob/master/Screenshots/1.jpeg)
 
 
 ## Functions
@@ -64,7 +65,7 @@ let labels = [RHLabel(text: "First"), RHLabel(text: "Second"), RHLabel(text: "Th
 let frame = CGRect(x: 16, y: 300, width: self.view.frame.maxX - 32, height: 75)
 let size = CGSize(width: 100, height: 65)
 
-let scrollView = rhScrollView.createFor(labels, frame: frame, itemSize: size)
+let scrollView = rhScrollView.createFor(labels, frame: frame, itemSize: size) // if you want it round you can also pass the following parameter: isRound: true at the end.
 self.view.addSubview(scrollView)
 ```
 
@@ -92,7 +93,7 @@ override func viewDidLoad() {
         let frame = CGRect(x: 16, y: 400, width: self.view.frame.maxX - 32, height: 75)
         let size = CGSize(width: 100, height: 65)
         
-        let scrollView = rhScrollView.createFor(views, frame: frame, itemSize: size)
+        let scrollView = rhScrollView.createFor(views, frame: frame, itemSize: size) // if you want it round you can also pass the following parameter: isRound: true at the end.
         self.view.addSubview(scrollView)
     }
     
