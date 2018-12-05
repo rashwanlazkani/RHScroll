@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/RHScroll.svg?style=flat)](https://cocoapods.org/pods/RHScroll)
 
 ## About
-`RHScrollView`  is a `ScrollView` similar to several famous apps out on the App Store. It creates in a simple way a horizontal `ScrollView` which can be used for several different purposes. You´re able to choose the size of the `ScrollView`, size of the items, the data and the positioning of everything. It has built in animations for tap and longPress.
+`RHScroll`  is a `ScrollView` similar to several famous apps out on the App Store. It creates in a simple way a horizontal `ScrollView` which can be used for several different purposes. You´re able to choose the size of the `ScrollView`, size of the items, the data and the positioning of everything. It has built in animations and notifications for tap and longPress gestures. You can add views, labels and images (see examples below).
 
 ### Here is how it looks:
 ![](https://media.giphy.com/media/2fLiopQntLyKJE8yAS/giphy.gif)
@@ -70,7 +70,7 @@ self.view.addSubview(scrollView)
 
 That is all that is needed to create the `ScrollView`.
 
-## Full example with a `ScrollView` containing images
+## Full example with a `RHScroll` containing views
 ```
 import RHScroll
 import UIKit
