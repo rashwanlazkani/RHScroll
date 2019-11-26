@@ -52,12 +52,14 @@ In this function there are three variables:
 
 #### Views and images
 ```
+let rhScrollView = RHScrollView()
+
 let views = [RHView(backgroundColor: .green), RHView(backgroundColor: .gray), RHView(backgroundColor: .orange), RHView(backgroundColor: .black), RHView(backgroundColor: .magenta)]
 
 let frame = CGRect(x: 16, y: 200, width: self.view.frame.maxX - 32, height: 75)
 let size = CGSize(width: 100, height: 65)
 
-let scrollView = rhScrollView.createFor(images, frame: frame, itemSize: size)
+let scrollView = rhScrollView.createFor(views, frame: frame, itemSize: size)
 self.view.addSubview(scrollView)
 ```
 
