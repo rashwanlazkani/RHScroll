@@ -10,7 +10,7 @@
 
 ### Here is how it looks:
 #### Regular:
-![](https://media.giphy.com/media/2fLiopQntLyKJE8yAS/giphy.gif)
+<a href="https://drive.google.com/uc?export=view&id=1zU7CPx3CtjkFVLqFadC6U-Bu0RzYpbtm"><img src="https://drive.google.com/uc?export=view&id=1zU7CPx3CtjkFVLqFadC6U-Bu0RzYpbtm" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 
 #### Circles:
 <img src="https://github.com/rashwanlazkani/RHScroll/blob/master/Screenshots/1.jpeg" alt="drawing" style="width:200px;"/>
