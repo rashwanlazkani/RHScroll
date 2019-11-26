@@ -128,7 +128,7 @@ pod 'RHScroll'
 
 ## Author
 
-rashwanlazkani, rashwan87@gmail.com
+Rashwan Lazkani, rashwan87@gmail.com
 
 ## License
 
